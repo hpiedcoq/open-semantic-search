@@ -31,7 +31,22 @@ cd opensemanticsearch
 docker-compose build
 ```
 
-After these builds all the Docker images/dependencies/services can by started together by docker-compose with the config file docker-compose.yml
+After these builds all the Docker images/dependencies/services can by started together by docker-compose with the config file docker-compose.yml.
+
+You can run the instance by typing : 
+
+
+```
+docker-compose up
+```
+
+
+You can browse OpenSemanticSearch in your favourite browser at this url : 
+
+```
+http://localhost:8080/search/
+```
+
 
 
 # Automated tests
