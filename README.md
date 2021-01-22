@@ -18,9 +18,18 @@ To build a deb package for Debian or Ubuntu, call the build script "build-deb" a
 
 ## Build docker images
 
-To build the Docker images use the docker-compose config docker-compose.yml by
+Clone the repository including the dependancies : 
 
+```git clone --recurse-submodules --remote-submodules https://github.com/opensemanticsearch/open-semantic-search.git
+```
+
+Inside the opensemanticsearch directory, build the Docker images use the docker-compose config docker-compose.yml : 
+```
+cd opensemanticsearch
+```
+```
 docker-compose build
+```
 
 After these builds all the Docker images/dependencies/services can by started together by docker-compose with the config file docker-compose.yml
 
